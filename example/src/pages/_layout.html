@@ -1,0 +1,25 @@
+<script>
+	export function state() {
+		return {
+			route: '/'
+		};
+	}
+
+	export function didMount(component) {
+		console.log('layout mounted');
+	}
+
+	export function didRender(component) {
+		console.log('layout rendered');
+	}
+</script>
+
+<template>
+	<nav>1</nav>
+
+	<partial:content class="asd" route={#route} />
+</template>
+
+<template partial:content route=null>
+default content
+</template>

@@ -1,0 +1,23 @@
+
+<script>
+    export function didMount(component) {
+        console.log('index mounted');
+    }
+
+    export function didRender(component) {
+        console.log('index rendered');
+    }
+</script>
+
+<template>
+    index
+
+    <a href="/about">link to about</a>
+    <button on:click="{emit('change-route', 'about')}">button to about</button>
+</template>
+
+<style>
+    a {
+        color: green;
+        }
+</style>

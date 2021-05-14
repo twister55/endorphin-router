@@ -1,0 +1,19 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Example project for endorphin-router",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -wc"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@endorphinjs/rollup-plugin-endorphin": "^0.3.0",
+    "endorphin": "^0.6.7-alpha.1",
+    "endorphin-router": "^0.0.1",
+    "rollup": "^1.32.1",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}

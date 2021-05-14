@@ -1,0 +1,33 @@
+{
+  "name": "endorphin-router",
+  "version": "0.0.1",
+  "description": "Routes for Endorphin, automated by file structure",
+  "main": "lib/index.js",
+  "type": "module",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twister55/endorphin-router.git"
+  },
+  "keywords": [
+    "router",
+    "front-end",
+    "endorphin",
+    "endorphinjs",
+    "ui"
+  ],
+  "author": "Vadim Yelisseyev <vadim.yelisseyev@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/twister55/endorphin-router/issues"
+  },
+  "homepage": "https://github.com/twister55/endorphin-router#readme",
+  "devDependencies": {
+    "endorphin": "^0.8.8"
+  }
+}
